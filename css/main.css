@@ -1,0 +1,63 @@
+/* Place CSS styles here */
+body {
+    background-color: beige;
+}
+.church-name {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.church-slogan {
+    font-size: large
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*Header + Logo*/
+.church-header-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.church-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 10px;
+}
+
+/* FOOTER */
+.hellokitty-footer-wrapper{
+    padding-top: 32px;
+    border-top: 4px solid black;
+    margin-top: 32px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 400px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Copyright/Name*/
+  .hellokitty-footer{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+  }
